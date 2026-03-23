@@ -1,5 +1,5 @@
 run_app:
-	python3 busridership_dash.py & sleep 30
+	python busridership_dash.py & sleep 30
 
 	wget -r http://127.0.0.1:8050/
 	wget -r http://127.0.0.1:8050/assets
@@ -30,7 +30,7 @@ run_app:
 	mv pages_files/_dash-layout pages_files/_dash-layout.json
 	mv pages_files/_dash-dependencies pages_files/_dash-dependencies.json
 
-	ps -C python3 -o pid= | xargs kill -9
+	ps -C python -o pid= | xargs kill -9
 
 clean_dirs:
 	ls
