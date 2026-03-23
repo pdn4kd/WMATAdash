@@ -1,5 +1,4 @@
 run_app:
-	source ~/exopy/bin/activate
 	python3 busridership_dash.py & sleep 30
 
 	wget -r http://127.0.0.1:8050/
