@@ -4,6 +4,7 @@ dash==2.15.0
 dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash-table==5.0.0
+dash-ag-grid
 Flask==2.2.5
 idna==3.10
 importlib-metadata==6.7.0
