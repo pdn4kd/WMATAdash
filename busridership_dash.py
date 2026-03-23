@@ -20,7 +20,7 @@ app.layout = [
 	dag.AgGrid(
 		rowData=df.to_dict('records'),
 		columnDefs=[{"field": i} for i in df.columns]
-	),
+	)
 ]
 
 # Add controls to build the interaction
